@@ -1,0 +1,13 @@
+README.md e6348068ab6fcbbf8477d42bfa35c072029918df
+cmake 3.20.0-rc3
+copyright a0f19fafcbea6ab278b9c1e5d3b0c252487d9a5a
+features core
+portfile.cmake c3dc24f3daa7af2b3da6fa790c556da394fd70a4
+ports.cmake 4002bb52d511816fcfa495a2bc7a5bdeb1d4bc8f
+post_build_checks 2
+powershell 7.1.0
+triplet x64-windows
+triplet_abi 3eab5c64d9cf628fc0aec277fde66dbdc69b8516-a1c0eabb0c5177b6a8fb97a58ae398880c47b352-120d520f1b7e64ccf976945dae23113f7c5ff5c9
+vcpkg-port-config.cmake 07cb36cced69fee7340cd89d9a13877a0cce66a8
+vcpkg.json c3912640092755efed2f43f8dcf284d5db41136b
+vcpkg_cmake_config_fixup.cmake 88ddb201d43683cf82fefff15c4c561d4dc522ae

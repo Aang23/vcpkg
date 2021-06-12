@@ -1,0 +1,8 @@
+Package: pthreads
+Version: 3.0.0-6
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4ca59410974560a894c02807ada7b238a3e65d91
+Description: pthreads for windows
+Type: Port
+Status: install ok half-installed

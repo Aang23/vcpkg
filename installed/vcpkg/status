@@ -1,0 +1,128 @@
+Package: zlib
+Version: 1.2.11
+Port-Version: 9
+Architecture: x86-windows
+Multi-Arch: same
+Abi: d95a2a394935e15b5c45e81c68060a8388f0eced
+Description: A compression library
+Type: Port
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.37
+Port-Version: 14
+Depends: zlib
+Architecture: x86-windows
+Multi-Arch: same
+Abi: 122b58e1a57ab3257db8b994a165a2ff44ae4c1e
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files.
+Type: Port
+Status: install ok installed
+
+Package: zlib
+Version: 1.2.11
+Port-Version: 9
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 1f6bbf3a30f33581755bf42a9b8ea404a4222922
+Description: A compression library
+Type: Port
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.37
+Port-Version: 14
+Depends: zlib
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 39e35a4e5fa89ff2c52ae04446258dfd1820dd86
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files.
+Type: Port
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 2.0.6
+Architecture: x64-windows
+Multi-Arch: same
+Abi: f9b1ec52ee32054377cba776f8440c55dbf4346f
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Type: Port
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2021-02-28
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e4055cbd073fdbcf3ad62097d6fec03a55098138
+Type: Port
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2021-02-26
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 91fe92c135c7766e249c604f52506915dc7c67d0
+Type: Port
+Status: install ok installed
+
+Package: fmt
+Version: 7.1.3
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e9f1e367cb82f6ea701ba50a6cdf65279487aaf5
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Type: Port
+Status: install ok installed
+
+Package: opengl
+Version: 0.0
+Port-Version: 8
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 973630bf6fa925e21d7ac039e8913cbeb52c5137
+Description: Open Graphics Library (OpenGL)[3][4][5] is a cross-language, cross-platform application programming interface (API) for rendering 2D and 3D vector graphics.
+Type: Port
+Status: install ok installed
+
+Package: glew
+Version: 2.1.0
+Port-Version: 10
+Depends: opengl
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ad692c526f80e399495e95a0da58687fe4bbcc87
+Description: The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library.
+Type: Port
+Status: install ok installed
+
+Package: glfw3
+Version: 3.3.2
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 35dad3ec175a76f9d93e52573ccb475f3c2beefb
+Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
+Type: Port
+Status: install ok installed
+
+Package: fftw3
+Version: 3.3.8-7
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 65e905c888bc4a60115a7c659b667471949b4837
+Description: FFTW is a C subroutine library for computing the discrete Fourier transform (DFT) in one or more dimensions, of arbitrary input size, and of both real and complex data (as well as of even/odd data, i.e. the discrete cosine/sine transforms or DCT/DST).
+Type: Port
+Status: install ok installed
+
+Package: libusb
+Version: 1.0.24
+Port-Version: 3
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4cf3b8867e6a7fce541912fcc5585ce8fcdd97f4
+Description: a cross-platform library to access USB devices
+Type: Port
+Status: install ok installed
+
